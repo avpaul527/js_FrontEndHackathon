@@ -1,0 +1,59 @@
+
+/* Please do not use this import in production. You could download this font from here https://fontstorage.com/font/stark */
+@import "https://fonts.fontstorage.com/import/stark.css";
+/*
+	Stark, 400
+*/
+
+
+body {
+    margin: 30px;
+    padding: 20px;
+    font-family: Stark;
+    background-image: url('https://hydraulic.dev/assets/images/blog/github-actions.webp');
+    background-color: rgb(255, 255, 7);
+    background-blend-mode: screen;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: none;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+  }
+
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+.profile-info {
+    margin-top: 20px;
+  }
+
+.repo-list {
+    margin-top: 30px;
+  }
+
+.repo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  #fetchData{
+    background-color: black;
+  }
+
+  #viewbutton{
+    background-color: black;
+  }
